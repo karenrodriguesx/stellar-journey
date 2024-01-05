@@ -1,4 +1,4 @@
-import { ContentItem } from './Icontent-item';
+import { ContentItem } from '../../default/default-page/Icontent-item';
 
 export const CONTENT_LIST: ContentItem[] = [
   {

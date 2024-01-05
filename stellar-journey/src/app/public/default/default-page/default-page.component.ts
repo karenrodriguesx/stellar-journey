@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ContentItem } from './Icontent-item';
 
 @Component({
   selector: 'app-default-page',
@@ -6,4 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./default-page.component.css']
 })
 export class DefaultPageComponent {
+  @Input() banner : string = '';
+  @Input() contentList: ContentItem[] = [];
 }

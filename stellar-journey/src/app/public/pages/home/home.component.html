@@ -1,0 +1,42 @@
+<app-default-page>
+  <div class="mb-20">
+    <div class="shadow-lg shadow-gray-700/20 mb-24">
+      <img src="assets/images/banner-sistema-solar.png" alt="banner" />
+    </div>
+
+    <div
+      *ngFor="let content of contentList; let i = index"
+      class="container mx-auto w-9/12 max-[640px]:w-11/12"
+    >
+      <h2 class="text-3xl font-semibold my-8">{{ content.title }}</h2>
+
+      <ng-container *ngIf="i % 2 === 0; else imageLeft">
+        <div class="lg:flex items-center">
+          <p class="text-lg text-justify mb-4 lg:mb-0 lg:mr-5 lg:w-1.5/2">
+            {{ content.text }}
+          </p>
+          <img
+            [src]="content.image"
+            class="rounded-xl w-80 lg:mb-4 max-[640px]:w-full mx-auto shadow-lg shadow-gray-950"
+            alt="Imagem"
+            *ngIf="content.image"
+          />
+        </div>
+      </ng-container>
+
+      <ng-template #imageLeft>
+        <div class="lg:flex items-center">
+          <img
+            [src]="content.image"
+            class="rounded-xl w-80 lg:mb-4 sm:mb-4 max-[640px]:w-full mx-auto mb-4 shadow-lg shadow-gray-950"
+            alt="Imagem"
+            *ngIf="content.image"
+          />
+          <p class="text-lg text-justify mb-4 lg:mb-0 lg:ml-5 lg:w-1.5/2">
+            {{ content.text }}
+          </p>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</app-default-page>

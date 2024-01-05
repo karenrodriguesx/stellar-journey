@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { ContentItem } from './Icontent-item';
+import { ContentItem } from '../../default/default-page/Icontent-item';
 import { CONTENT_LIST } from './content-list';
 
 @Component({
