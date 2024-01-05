@@ -1,0 +1,17 @@
+<app-default-page>
+  <div class="mb-20">
+    <div class="shadow-lg shadow-gray-700/20 mb-24">
+      <img src="assets/images/banner-rochosos.png" alt="banner" />
+    </div>
+
+    <div
+      *ngFor="let item of contentList"
+      class="container mx-auto w-9/12 max-[640px]:w-11/12"
+    >
+      <h2 class="text-3xl font-semibold my-10">{{ item.title }}</h2>
+      <p class="text-lg text-justify mb-8" [innerHTML]="item.text">
+      </p>
+      <img *ngIf="item.image" [src]="item.image" alt="imagem" class="rounded-md shadow-lg shadow-gray-950 w-96 mx-auto">
+    </div>
+  </div>
+</app-default-page>

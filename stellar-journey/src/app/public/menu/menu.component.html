@@ -1,0 +1,15 @@
+<nav
+  class="container mx-auto px-4 h-24 flex place-items-center justify-between"
+>
+  <div class="font-bold px-6">
+    <a [routerLink]="'/'"><p class="text-2xl">LOGO</p></a>
+  </div>
+  <ul>
+    <li>
+      <a
+        class="hover:bg-gray-900 rounded-lg text-base px-2 py-2 me-3 mb-2"
+        *ngFor="let menuItem of menuList()" [routerLink]="'/' + menuItem.route">{{ menuItem.label }}</a
+      >
+    </li>
+  </ul>
+</nav>

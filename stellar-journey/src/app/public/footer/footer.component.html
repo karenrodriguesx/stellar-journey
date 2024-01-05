@@ -1,0 +1,21 @@
+<footer
+  class="container mx-auto flex place-items-center justify-center "
+>
+  <div class="text-center w-full">
+    <div *ngFor="let asset of assets" class="inline-block mt-8 mb-4 pr-2">
+      <a href="{{ asset.href }}" target="_blank">
+        <img src="{{ asset.src }}" alt="{{ asset.alt }}" class="h-8 hover:bg-gray-800 rounded-full" />
+      </a>
+    </div>
+
+    <p class="text-xs mb-6">
+      Copyright &#169;2024 Todos os direitos reservados | Feito por
+      <a
+        href="https://www.linkedin.com/in/karen-rodrigues1/"
+        class="hover:text-purple-300"
+        target="_blank"
+        >Karen Rodrigues &#9829;
+      </a>
+    </p>
+  </div>
+</footer>
