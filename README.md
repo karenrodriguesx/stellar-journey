@@ -1,1 +1,1 @@
-# angular-blog
+# Projeto Stellar Journey
