@@ -8,5 +8,5 @@ import { ContentItem } from '../../default/default-page/Icontent-item';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  contentList = <ContentItem[]>CONTENT_LIST;
+  contentList: ContentItem[] = <ContentItem[]>(CONTENT_LIST);
 }

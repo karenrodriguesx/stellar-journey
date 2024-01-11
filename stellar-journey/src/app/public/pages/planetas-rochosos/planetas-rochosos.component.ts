@@ -8,5 +8,5 @@ import { CONTENT_LIST } from './content-list';
   styleUrls: ['./planetas-rochosos.component.css'],
 })
 export class PlanetasRochososComponent {
-  contentList = <ContentItem[]>(CONTENT_LIST);
+  planetasRochososContent: ContentItem[] = <ContentItem[]>CONTENT_LIST;
 }

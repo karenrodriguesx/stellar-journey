@@ -1,15 +1,17 @@
 <nav
-  class="container mx-auto px-4 h-24 flex place-items-center justify-between"
+  class="container mx-auto px-4 h-24 max-[650px]:h-auto flex place-items-center justify-between max-[650px]:flex-wrap max-[650px]:justify-center"
 >
-  <div class="font-bold px-6">
-    <a [routerLink]="'/'"><p class="text-2xl">LOGO</p></a>
-  </div>
-  <ul>
-    <li>
-      <a
-        class="hover:bg-gray-900 rounded-lg text-base px-2 py-2 me-3 mb-2"
-        *ngFor="let menuItem of menuList()" [routerLink]="'/' + menuItem.route">{{ menuItem.label }}</a
-      >
-    </li>
-  </ul>
+    <div class="font-bold px-6">
+      <a [routerLink]="'/'"><p class="text-2xl"><img src="assets/images/logo-stellar.png" class="h-16 max-[650px]:mt-2"></p></a>
+    </div>
+    <ul class="flex flex-wrap">
+      <li *ngFor="let menuItem of menuList()" class="text-center my-2 mx-auto">
+        <a
+          class="hover:bg-gray-900 rounded-lg text-base px-2 py-2 me-3 mb-3"
+          [routerLink]="'/' + menuItem.route"
+          >{{ menuItem.label }}</a
+        >
+      </li>
+    </ul>
 </nav>
+

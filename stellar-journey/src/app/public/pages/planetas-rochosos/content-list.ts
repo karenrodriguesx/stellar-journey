@@ -1,4 +1,4 @@
-import { ContentItem } from './Icontent-item';
+import { ContentItem } from "../../default/default-page/Icontent-item";
 
 export const CONTENT_LIST: ContentItem[] = [
   {
@@ -11,7 +11,7 @@ export const CONTENT_LIST: ContentItem[] = [
   },
   {
     title: 'Vênus',
-    text: 'Vênus é o segundo planeta mais próximo do Sol e o mais quente do Sistema Solar, com temperaturas que chegam a quase 500ºc. Graças à sua atmosfera espessa, composta principalmete por dióxido de carbono, o planeta retém calor e forma um grande efeito estufa. Além disso, o planeta é conhecido como "gêmeo da Terra", e possui vários vulcões e montanhas, mas não possui satélites naturais.<br><br>Apesar de extremamente quente, cerca de 50km acima da superfície do planeta, as temperaturas variam de 30 a 70ºc, e a pressão atmosférica é semelhante à da Terra, tornando provável que o planeta possa abrigar vida terrestre, como alguns micróbios, porém, até hoje não há evidências o suficiente para afirmar que o planeta abriga vida.<br><br>Algumas sondas chegaram a pousar em sua superfície, mas nenhuma sobrevive às altas temperaturas e pressão atmosférica, algumas funcionaram brevemente após o pouso, mas duraram cerca de 20 minutos a 2 horas, no máximo. A sonda Venera-9, lançada pela União Soviética em 1975, registrou a imagem abaixo (a imagem original é em preto e branco), da superfície do planeta, uma paisagem escura e rochosa, com um céu provavelmente amarelo enxofre.',
+    text: 'Vênus é o segundo planeta mais próximo do Sol e o mais quente do Sistema Solar, com temperaturas que chegam a quase 500ºc. Graças à sua atmosfera espessa, composta principalmete por dióxido de carbono, o planeta retém calor e forma um grande efeito estufa. Além disso, o planeta possui vários vulcões e montanhas, mas não possui satélites naturais.<br><br>Apesar de extremamente quente, cerca de 50km acima da superfície do planeta, as temperaturas variam de 30 a 70ºc, e a pressão atmosférica é semelhante à da Terra, tornando provável que o planeta possa abrigar vida terrestre, como alguns micróbios, porém, até hoje não há evidências o suficiente para afirmar que o planeta abriga vida.<br><br>Algumas sondas chegaram a pousar em sua superfície, mas nenhuma sobrevive às altas temperaturas e pressão atmosférica, algumas funcionaram brevemente após o pouso, mas duraram cerca de 20 minutos a 2 horas, no máximo. A sonda Venera-9, lançada pela União Soviética em 1975, registrou a imagem abaixo (a imagem original é em preto e branco), da superfície do planeta, uma paisagem escura e rochosa, com um céu provavelmente amarelo enxofre.',
     image:
       'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2023/03/estas-son-unicas-fotos-existen-superficie-venus-buena-razon-2991728.jpg?tf=3840x',
   },
