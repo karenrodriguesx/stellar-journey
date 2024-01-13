@@ -10,11 +10,11 @@ export const LISTA_MENU: MenuItem[] = [
     route: 'planetas-rochosos',
   },
   {
-    label: 'Planetas Gasosos',
-    route: 'planetas-gasosos',
-  },
-  {
     label: 'Terra',
     route: 'terra',
+  },
+  {
+    label: 'Planetas Gasosos',
+    route: 'planetas-gasosos',
   },
 ];
