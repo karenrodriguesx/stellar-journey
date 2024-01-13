@@ -7,7 +7,7 @@
 
 ### Como acessar
 
-- O projeto está disponível no GitHub Pages, e você pode acessar através [deste link]().
+- O projeto está disponível no GitHub Pages, e você pode acessar através <a href="https://karenrodriguesx.github.io/stellar-journey/" target="_blank">deste link</a>
 
 ### Organização de diretórios
 
