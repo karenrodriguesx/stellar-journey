@@ -12,7 +12,7 @@ export const LISTA_MENU: MenuItem[] = [
   {
     label: 'Terra',
     route: 'terra',
-  }
+  },
   {
     label: 'Planetas Gasosos',
     route: 'planetas-gasosos',
