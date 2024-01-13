@@ -7,7 +7,7 @@
 
 ### Como acessar
 
-- O projeto está disponível no GitHub Pages, e você pode acessar através <a href="https://github.com/karenrodriguesx/angular-stellar-journey" target="_blank">deste link</a>.
+- O projeto está disponível no GitHub Pages, e você pode acessar através <a href="https://github.com/karenrodriguesx/angular-stellar-journey" target="_blank">deste link</a>
 
 ### Organização de diretórios
 
