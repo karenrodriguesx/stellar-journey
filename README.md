@@ -11,13 +11,17 @@
 
 ### Organização de diretórios
 
-- Acessando o projeto, em [`src/app/public`](https://github.com/karenrodriguesx/angular-stellar-journey/tree/main/stellar-journey/src/app/public) você encontrará os componentes Default, Menu e Footer, além da pasta `pages`
-- Em [`src/app/public/pages`](https://github.com/karenrodriguesx/angular-stellar-journey/tree/main/stellar-journey/src/app/public/pages) estão os componentes dedicados às páginas do projeto
+- Acessando o projeto, em [`src/app/public`](https://github.com/karenrodriguesx/stellar-journey/tree/main/src/app/public) você encontrará os componentes Default, Menu e Footer, além da pasta `pages`
+- Em [`src/app/public/pages`](https://github.com/karenrodriguesx/stellar-journey/tree/main/src/app/public/pages) estão os componentes dedicados às páginas do projeto
 - Os arquivos `content-list.ts` são responsáveis pelo conteúdo de cada página, como o título, textos e imagens
 
 ### Rodando o projeto localmente
 
 - Para ver o projeto funcionando em sua máquina, basta utilizar no Git Bash o comando `git clone https://github.com/karenrodriguesx/angular-stellar-journey.git`
 - Após clonar o repositório, é necessário abrir a pasta utilizando alguma IDE, e inserir no terminal o comando `ng serve`, que irá iniciar o projeto Angular
+
+### Fontes de pesquisa
+
+- NASA. Solar System. **Disponível em:** https://science.nasa.gov/solar-system
 
 
