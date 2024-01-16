@@ -17,7 +17,7 @@
 
 ### Rodando o projeto localmente
 
-- Para ver o projeto funcionando em sua máquina, basta utilizar no Git Bash o comando `git clone https://github.com/karenrodriguesx/angular-stellar-journey.git`
+- Para ver o projeto funcionando em sua máquina, basta utilizar no Git Bash o comando `git clone https://github.com/karenrodriguesx/stellar-journey.git`
 - Após clonar o repositório, é necessário abrir a pasta utilizando alguma IDE, e inserir no terminal o comando `ng serve`, que irá iniciar o projeto Angular
 
 ### Fontes de pesquisa
