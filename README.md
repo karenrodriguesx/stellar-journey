@@ -1,4 +1,4 @@
-# Projeto Stellar Journey <img align="center" alt="Karen-angular" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg"><img align="center" alt="Karen-typescript" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"><img align="center" alt="Karen-css" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg">
+# Projeto Stellar Journey <img align="center" alt="Karen-angular" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg"><img align="center" alt="Karen-typescript" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"><img align="center" alt="Karen-css" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg">
 
 ### Bem-vindo ao Stellar Journey, uma aventura pelo nosso sistema solar! 💫
 
